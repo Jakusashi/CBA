@@ -1,0 +1,118 @@
+body{
+	background-image: url("back.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat
+}
+
+
+#all {
+	height: 85%;
+	width: 85%;
+	margin: 0 auto;
+    min-width: 800px;
+    min-height: 550px;
+    
+}
+			
+#body {
+	float: left;
+	width: 75%;
+	height: 85%;
+	background-color: #33ccff;
+    text-align: center;
+}
+			
+#pkmnoftheday {
+	float: left;
+	width: 25%;
+	height: 85%;
+	background-color: lightblue;
+	text-align: center;
+    font-family: tahoma;
+}
+			
+#stopa {
+	clear: both;
+	width: 100%;
+	height: 15%;
+	background-color: #b3ffc6;
+	text-align: center;
+	font-family: calibri;
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+}
+            
+a:hover {
+    color: white;
+}
+
+#news {	
+    float: left;
+    margin: 2px;
+	width: 200px;
+	height: 350px;
+	background: lightgrey;
+	border-radius: 5px;
+	border: 2px solid black;
+	overflow: hidden;
+}
+            
+#calydex {
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    text-align: center;
+}
+            
+#title {
+    float: center;
+    width:200px;
+    background: cyan;
+}
+
+#shoutbox {
+	float: center;
+	height: 80%;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 5px;
+	overflow-y: scroll;
+}
+
+#shout {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid lightblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+            
+#dane {
+	float: left;
+	width: 25%;
+	background-color: #9dc795;
+	border: 2px solid lightblue;
+	text-align: left;
+} 
+            
+#koment {
+    float: left;
+    width: 70%;
+    text-align: left;
+    height: auto;
+}
+
+#mana {
+    float: center;
+	height: 99%;
+	width: 100%;
+	overflow-y: scroll;
+    text-align: center;
+    font-family: tahoma;
+}

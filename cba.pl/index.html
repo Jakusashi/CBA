@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Jakusashi's Project Mirai </title>
+		<meta charset="utf-8">
+        <meta lang="PL-pl">
+        <meta author="Jakusashi">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styl.css">
+	</head>
+	<body>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <div id="naglowek">
+            <h1>Jakusashi's Project Mirai! </h1>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#Witaj" role="tab" data-toggle="tab">Witaj</a></li>
+                <li><a href="#Projekty" role="tab" data-toggle="tab">Projekty</a></li>
+                <li><a href="#BugHunters" role="tab" data-toggle="tab">BugHunters</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="Witaj">
+                Witaj na stronie Jakusashiego, na której znajdziesz projekty ww. autora,
+                które nie majš żadnej wartoci edukacyjnej i najprawdopodobniej nikomu się
+                nie przydadzą, aleee.... miłego :)
+            </div>
+            <div class="tab-pane" id="Projekty">
+                <h2>Check out my newest projects!</h2>
+                <center>
+                    <a href='http://jakusashi.cba.pl/pokemon/login.php'> 
+                        <img src='img/database_project.png' height="350px">
+                        <p>Pokemon Database Project</p>
+                    </a> 
+                    <a>
+                        <img src='img/teambuilder.png' height="350px"> 
+                        <p>
+                            <s> Brave Frontier Team Builder Project </s></br>
+                            (Currently Unavailable)
+                        </p>
+                    </a>
+                </center>
+            </div>
+            <div class="tab-pane" id="BugHunters">
+                <table>
+                    <tr><td id="podziekowania">Many thanks for Bug Hunters!</td></tr>
+                    <tr><td onmouseover="EasterEggIn('seba');" onmouseout="EasterEggOut('seba');">Arcal/Seba/Hokan</td></tr>
+                    <tr><td onmouseover="EasterEggIn('jezus');" onmouseout="EasterEggOut('jezus');">Jezus</td></tr>
+                    <tr><td onmouseover="EasterEggIn('student');" onmouseout="EasterEggOut('student');">Student</td></tr>
+                </table>
+                <img src='/img/Pinsir_Dream.png'>
+                <img src="img/bughunters/student.png" alt="Student" id="EasterEgg_student" class="EasterEgg">
+                <img src="img/bughunters/jezus.png" alt="Jezus" id="EasterEgg_jezus" class="EasterEgg">
+                <img src="img/bughunters/seba.png" alt="Seba" id="EasterEgg_seba" class="EasterEgg">
+                <script type="text/javascript" src="js/bughunters.js"></script>
+            </div>
+        </div>
+	</body>
+</html>
